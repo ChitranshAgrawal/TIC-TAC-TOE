@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 8vmin;
+    color: #d3221c;
+    background-color: #ffffc7;
+}
+
+.reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+.new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#draw-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+.draw-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#draw {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.draw-hide {
+    display: none;
+}
+
+.dark_mode {
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px 10px;
+    position: fixed;
+}
+
+.dark-page {
+    background-color: rgb(39, 37, 37);
+    color: rgb(234, 33, 33);
+}
+
+.dark-reset {
+    background-color: rgb(195, 195, 222);
+    color: #ff0000;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.dark-new {
+    background-color: rgb(195, 195, 222);
+    color: #ff0000;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.dark-box {
+    box-shadow: 0 0 1rem rgb(255, 91, 3, 0.5);
+}
+
+button {
+    cursor: pointer;
+}
+
+
